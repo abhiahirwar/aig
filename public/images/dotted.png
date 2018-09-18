@@ -1,0 +1,70 @@
+curStrPos === 0)
+                            self.options.preStringTyped(self.arrayPos);
+
+                        // start typing each new char into existing string
+                        // curString: arg, self.el.html: original text inside element
+                        var nextString = curString.substr(0, curStrPos + 1);
+                        if (self.attr) {
+                            self.el.attr(self.attr, nextString);
+                        } else {
+                            if (self.isInput) {
+                                self.el.val(nextString);
+                            } else if (self.contentType === 'html') {
+                                self.el.html(nextString);
+                            } else {
+                                self.el.text(nextString);
+                            }
+                        }
+
+                        // add characters one by one
+                        curStrPos++;
+                        // loop the function
+                        self.typewrite(curString, curStrPos);
+                    }
+                    // end of character pause
+                }, charPause);
+
+                // humanized value for typing
+            }, humanize);
+
+        }
+
+        ,
+        backspace: function(curString, curStrPos) {
+            // exit when stopped
+            if (this.stop === true) {
+                return;
+            }
+
+            // varying values for setTimeout during typing
+            // can't be global since number changes each time loop is executed
+            var humanize = Math.round(Math.random() * (100 - 30)) + this.backSpeed;
+            var self = this;
+
+            self.timeout = setTimeout(function() {
+
+                // ----- this part is optional ----- //
+                // check string array position
+                // on the first string, only delete one word
+                // the stopNum actually represents the amount of chars to
+                // keep in the current string. In my case it's 14.
+                // if (self.arrayPos == 1){
+                //  self.stopNum = 14;
+                // }
+                //every other time, delete the whole typed string
+                // else{
+                //  self.stopNum = 0;
+                // }
+
+                if (self.contentType === 'html') {
+                    // skip over html tags while backspacing
+                    if (curString.substr(curStrPos).charAt(0) === '>') {
+                        var tag = '';
+                        while (curString.substr(curStrPos).charAt(0) !== '<') {
+                            tag -= curString.substr(curStrPos).charAt(0);
+                            curStrPos--;
+                        }
+                        curStrPos--;
+                        tag += '<';
+                    }
+          
