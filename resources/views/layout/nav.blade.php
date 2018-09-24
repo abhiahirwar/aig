@@ -16,7 +16,7 @@
         <li><a href="{{ url('spec') }}">Color and Specification</a>
             
         </li>
-        <li><a href="{{ url('glass') }}-options">Glass Option</a>
+        <li><a href="{{ url('glass-options') }}">Glass Option</a>
             
         </li>
         <li><a href="{{ url('warranty') }}">Warranty</a></li>

@@ -29,10 +29,18 @@ Route::get('/warranty', function() {
     return 'Warranty!';
 });
 
+Route::get('/products', function() {
+    return 'Products!';
+});
+
+Route::get('/glass-options', function() {
+    return 'Glass Options!';
+});
+
 Route::get('/contact', function() {
     return 'Contact!';
 });
 
-Route::get('/foo', function() {
+Route::get('/spec', function() {
     return 'Hello World!';
 });
