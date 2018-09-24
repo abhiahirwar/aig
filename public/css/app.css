@@ -148,7 +148,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1,
@@ -164,8 +164,13 @@ h1 {
   text-align: left;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 34px;
   font-family: "proxima_nova_altbold", Arial, Helvetica, sans-serif;
+}
+
+a:hover,
+a:active {
+  color: #c64344;
 }
 
 section {
@@ -173,9 +178,41 @@ section {
 }
 
 .large-text {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 28px;
+  line-height: 34px;
   font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #23212c;
+  height: 124px;
+}
+
+header nav {
+  margin-top: 60px;
+}
+
+header nav a {
+  font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+header .info {
+  padding: 0;
+  border-bottom: none;
+}
+
+.container {
+  width: 1270px;
+}
+
+#logo img {
+  height: 85px;
+}
+
+#mainmenu a {
+  padding: 0px 0px 0px 30px;
+  font-size: 12px;
 }
 
 footer h1,

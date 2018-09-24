@@ -6,9 +6,8 @@
        @include('layout.header')
 
         <!-- content begin -->
-        <div id="content" class="no-bottom no-top">
+        <div id="content" class="no-bottom">
 
-            @yield('content')
-          
+        @yield('content')
 
-@include('layout.footer')
+        @include('layout.footer')

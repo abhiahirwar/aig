@@ -1,4 +1,4 @@
-// © Copyright 2018 - Archi v2.1 by Designesia 
+// © Copyright 2018 - Archi v2.1 by Designesia
 
 jQuery(document).ready(function () {
     'use strict';				// use strict mode
@@ -244,7 +244,7 @@ jQuery(document).ready(function () {
                 if (!jQuery(this).parent().parent().parent().parent().hasClass('grid')) {
                     jQuery(this).parent().css("height", h);
                 }
-				
+
 				var obj = jQuery(this).parent().parent().find(".overlay-1");
 
                 obj.css("width", w);
@@ -309,7 +309,7 @@ jQuery(document).ready(function () {
         jQuery('.overlay').fadeTo(1, 0);
         // team hover
     }
-	
+
 	function grid_gallery() {
             jQuery('.grid-item').each(function () {
                 var this_col = Number(jQuery(this).parent().attr('data-col'));
@@ -339,7 +339,7 @@ jQuery(document).ready(function () {
             })
         }
 
-		
+
 		init_de();
         grid_gallery();
 
@@ -419,7 +419,7 @@ jQuery(document).ready(function () {
                 jQuery('#mainmenu').show();
                 jQuery('header').removeClass('height-auto');
                 mobile_menu_show = 1;
-                col = tmp_col;			
+                col = tmp_col;
             },
             unmatch: function () {
                 jQuery('#mainmenu').hide();
@@ -466,19 +466,19 @@ jQuery(document).ready(function () {
 
         window.addEventListener('scroll', function (e) {
 
-            if (mq.matches) {
-                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 100,
-                    header = document.querySelector("header");
-                if (distanceY > shrinkOn) {
-                    classie.add(header, "smaller");
-                } else {
-                    if (classie.has(header, "smaller")) {
-                        classie.remove(header, "smaller");
-                    }
+            // if (mq.matches) {
+            //     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            //         shrinkOn = 100,
+            //         header = document.querySelector("header");
+            //     if (distanceY > shrinkOn) {
+            //         classie.add(header, "smaller");
+            //     } else {
+            //         if (classie.has(header, "smaller")) {
+            //             classie.remove(header, "smaller");
+            //         }
 
-                }
-            }
+            //     }
+            // }
 
             if (mq.matches) {
                 jQuery("header").addClass("clone", 1000, "easeOutBounce");
@@ -645,7 +645,7 @@ jQuery(document).ready(function () {
         autoPlay: 4000,
         transitionStyle: "fade"
     });
-	
+
 	 jQuery(".carousel-single-navi").owlCarousel({
         items: 1,
         singleItem: true,
@@ -714,7 +714,7 @@ jQuery(document).ready(function () {
     jQuery(".blog-list").on("mouseenter", function () {
 		var v_height;
 		var v_width;
-		
+
 		if (typeof v_height !== 'undefined') {
         v_height = jQuery(this).find(".blog-slide").css("height");
         v_width = jQuery(this).find(".blog-slide").css("width");
@@ -746,15 +746,15 @@ jQuery(document).ready(function () {
 		for (var i = 0; i <= count; i++) {
 		  var sqx = jQuery(".sequence > .sq-item:eq("+i+") .picframe");
 		  sqx.attr('data-wow-delay',(i/15)+'s');
-		}		
+		}
 	}
-	
-	
+
+
 		sequence();
 
     jQuery(window).load(function () {
 
-        video_autosize();		
+        video_autosize();
         grid_gallery();
 
         // --------------------------------------------------
@@ -820,7 +820,7 @@ jQuery(document).ready(function () {
             jQuery(this).parent().parent().find('.de_tab_content > div').hide();
 
             var indexer = jQuery(this).index(); //gets the current index of (this) which is #nav li
-            jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').fadeIn(); //uses whatever index the link has to open the corresponding box 
+            jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').fadeIn(); //uses whatever index the link has to open the corresponding box
             jQuery(this).find('.v-border').fadeTo(150, 1);
         });
 
@@ -864,7 +864,7 @@ jQuery(document).ready(function () {
             jQuery(this).parent().parent().find('.de_tab_content > div').hide();
 
             var indexer = jQuery(this).index(); //gets the current index of (this) which is #nav li
-            jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').show(); //uses whatever index the link has to open the corresponding box 
+            jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').show(); //uses whatever index the link has to open the corresponding box
         });
 
 
@@ -896,14 +896,14 @@ jQuery(document).ready(function () {
                 jQuery('header').addClass('height-auto');
                 mobile_menu_show = 1;
 				jQuery(this).removeClass("unclick");
-				jQuery(this).addClass("clicked");	
+				jQuery(this).addClass("clicked");
             } else {
                 $('#mainmenu').slideUp('fast', function () {
                     jQuery('header').removeClass('height-auto');
                     mobile_menu_show = 0;
                 });
 				jQuery(this).removeClass("clicked");
-				jQuery(this).addClass("unclick");	
+				jQuery(this).addClass("unclick");
             }
         })
 

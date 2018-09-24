@@ -1,4 +1,4 @@
-/* default color: #FAB702 */
+/* default color: #c64344 */
 .bg-color,section.bg-color,
 section.call-to-action,
 #mainmenu li li a:hover,
@@ -53,7 +53,7 @@ a.btn-custom,
 .pricing-s1 .ribbon,
 a.btn-slider.btn-color
 {
-	background-color:#FAB702;
+	background-color:#c64344;
 }
 
 .feature-box i,
@@ -98,7 +98,7 @@ address span strong,
 .expand h4:after,
 .pricing-s1 .bottom ul li i
 {
-	color:#FAB702;
+	color:#c64344;
 }
 
 .feature-box i,
@@ -122,7 +122,7 @@ address span strong,
 a.btn-slider.btn-color
 {
 
-	border-color:#FAB702;
+	border-color:#c64344;
 }
 
 .box-fx .inner,
@@ -130,32 +130,32 @@ a.btn-slider.btn-color
 .blog-list img,
 .arrow-up
 {
-	border-bottom-color:#FAB702;
+	border-bottom-color:#c64344;
 }
 
 .arrow-down{
-	border-top-color:#FAB702;
+	border-top-color:#c64344;
 }
 
 .callbacks_nav {
-	background-color:#FAB702;
+	background-color:#c64344;
 }
 
 
 .de_tab .de_nav li span {
-border-top: 3px solid #FAB702;
+border-top: 3px solid #c64344;
 }
 
 .feature-box-big-icon i:after {
-border-color: #FAB702 transparent; /*same colour as the lower of the bubble's gradient*/
+border-color: #c64344 transparent; /*same colour as the lower of the bubble's gradient*/
 }
 
 .de_review li.active img{
-	border:solid 4px #FAB702;
+	border:solid 4px #c64344;
 }
 
 blockquote.s1{
-	border-left-color:#FAB702;
+	border-left-color:#c64344;
 }
 
 

@@ -4,7 +4,7 @@ body{
 }
 
 p{
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,8 +16,14 @@ h1 {
   text-align: left;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 34px;
   font-family: "proxima_nova_altbold", Arial, Helvetica, sans-serif;
+}
+
+a {
+  &:hover,&:active {
+    color: #c64344;
+  }
 }
 
 section {
@@ -25,9 +31,40 @@ section {
 }
 
 .large-text {
-  font-size:  32px;
-  line-height: 38px;
+  font-size:  28px;
+  line-height: 34px;
   font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #23212c;
+  height: 124px;
+
+  nav{
+    margin-top: 60px;
+    a{
+      font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+      font-size: 12px;
+    }
+  }
+
+  .info {
+    padding: 0;
+    border-bottom: none;
+  }
+}
+
+.container {
+ width:1270px;
+}
+
+#logo img {
+  height: 85px;
+}
+
+#mainmenu a {
+  padding: 0px 0px 0px 30px;
+  font-size: 12px;
 }
 
 footer {
@@ -36,3 +73,4 @@ footer {
     font-family: "Proxima Nova",Arial, Helvetica, sans-serif;;
   }
 }
+
