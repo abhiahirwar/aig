@@ -1,0 +1,38 @@
+body{
+  color: #222;
+  font-family: $font-family-sans-serif;
+}
+
+p{
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #222;
+    font-family: "Proxima Nova",Arial, Helvetica, sans-serif;;
+}
+
+h1 {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 46px;
+  font-family: "proxima_nova_altbold", Arial, Helvetica, sans-serif;
+}
+
+section {
+  background: #fff;
+}
+
+.large-text {
+  font-size:  32px;
+  line-height: 38px;
+  font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+}
+
+footer {
+  h1, h2, h3, h4, h5 {
+    color: #fff;
+    font-family: "Proxima Nova",Arial, Helvetica, sans-serif;;
+  }
+}

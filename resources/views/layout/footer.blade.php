@@ -1,0 +1,99 @@
+
+            <!-- footer begin -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('Information') }}</h5>
+                                <ul>
+                                    <li><a href="index.html#">About IG Blinds</a></li>
+                                    <li><a href="index.html#">Product range</a></li>
+                                    <li><a href="index.html#">Colour specifications</a></li>
+                                    <li><a href="index.html#">Glass options</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('CUSTOMER SERVICE') }}</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('IG BLINDS PTY LTD') }}</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('OUR INDUSTRY PARTNERS') }}</h5>
+                            </div>
+                        </div>
+                         <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('') }}</h5>
+                            </div>
+                        </div>
+                         <div class="col-md-2">
+                            <div class="widget">
+                                <h5>{{ strtoupper('') }}</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="subfooter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                &copy; Copyright 2018 - AIG
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <div class="social-icons">
+                                    <a href="index.html#"><i class="fa fa-facebook fa-lg"></i></a>
+                                    <a href="index.html#"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="index.html#"><i class="fa fa-rss fa-lg"></i></a>
+                                    <a href="index.html#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                    <a href="index.html#"><i class="fa fa-skype fa-lg"></i></a>
+                                    <a href="index.html#"><i class="fa fa-dribbble fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html#" id="back-to-top"></a>
+            </footer>
+            <!-- footer close -->
+        </div>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="demo/demo.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+</body>
+
+</html>

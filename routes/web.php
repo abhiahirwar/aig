@@ -12,9 +12,27 @@
 */
 
 Route::get('/', function () {
-    return view('layout.master');
+    return view('home');
 });
 
-Route::get('foo', function() {
+Route::get('/faq', function() {
+    return 'FAQ!';
+});
+
+
+Route::get('/about', function() {
+    return view('about');
+});
+
+
+Route::get('/warranty', function() {
+    return 'Warranty!';
+});
+
+Route::get('/contact', function() {
+    return 'Contact!';
+});
+
+Route::get('/foo', function() {
     return 'Hello World!';
 });

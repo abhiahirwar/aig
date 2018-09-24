@@ -1,14 +1,14 @@
 
-// // Fonts
-// @import url('https://fonts.googleapis.com/css?family=Nunito');
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
-// // Variables
-// @import 'variables';
+// Variables
+@import 'variables';
 
-// // Bootstrap
+// Bootstrap
 // @import '~bootstrap/scss/bootstrap';
 
-// .navbar-laravel {
-//   background-color: #fff;
-//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-// }
+@import "~flickity/css/flickity.css";
+@import 'bootstrap';
+@import 'main';
+@import 'carousel';
