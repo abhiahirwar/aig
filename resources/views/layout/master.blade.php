@@ -8,8 +8,6 @@
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 
-            @include('partial.slider')
-
             @yield('content')
           
 
