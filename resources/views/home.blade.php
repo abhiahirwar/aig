@@ -53,12 +53,12 @@
     <!-- section close -->
     <section>
     	<div class="container">
-    		<div class="col-md-6 blue-bg white-text padding50">
-    			<div class="card height-200">
+    		<div class="col-md-6 dark-blue-bg white-text padding50">
+    			<div class="card height-300">
 	    			<div class="card-heading">
 	    				<h2 class="sky-blue-text">After-sales service</h2>
 	    			</div>
-					<div class="card-content">
+					<div class="card-content margintop20">
 	    				<p>IG Blinds is the only Australian company to provide after-sales service and support nationally on every IG Blinds® installation.</p>
 	    			</div>
 					<div class="card-footer">
@@ -67,7 +67,7 @@
 	    		</div>
     		</div>
     		<div class="col-md-6 sky-blue-bg padding50">
-    			<div class="card height-200">
+    			<div class="card height-300">
 	    			<div class="card-heading">
 	    				<h2>Download our brochure <br>
 						to view the full range <br>
@@ -83,7 +83,7 @@
     		</div>
     	</div>
     </section>
-    <section class="blue-bg margintop60">
+    <section class="dark-blue-bg margintop60">
     	<div class="container">
     		<div class="col-md-4">
 	    		<h2 class="sky-blue-text">Stay in the loop</h2>

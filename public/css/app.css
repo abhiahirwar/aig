@@ -214,6 +214,10 @@ https://flickity.metafizzy.co
   background-color: #0083C2;
 }
 
+.dark-blue-bg {
+  background-color: #003865;
+}
+
 .sky-blue-bg {
   background-color: #8DC4F2;
 }
@@ -236,6 +240,10 @@ https://flickity.metafizzy.co
 
 .blue-text {
   color: #0083C2;
+}
+
+.dark-blue-text {
+  color: #003865;
 }
 
 .white-text {
@@ -399,6 +407,10 @@ footer h5 {
 
 .height-800 {
   height: 800px;
+}
+
+.margintop20 {
+  margin-top: 20px;
 }
 
 .margintop60 {
