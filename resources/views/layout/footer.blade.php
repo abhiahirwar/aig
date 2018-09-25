@@ -17,26 +17,33 @@
                         <div class="col-md-2">
                             <div class="widget">
                                 <h5>{{ strtoupper('CUSTOMER SERVICE') }}</h5>
+                                <ul>
+                                    <li><a href="">Warranty</a></li>
+                                    <li><a href="">FAQs</a></li>
+                                    <li><a href="">Terms & Conditions</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="widget">
                                 <h5>{{ strtoupper('IG BLINDS PTY LTD') }}</h5>
+                                <p>
+                                    Unit 10/15 Industrial Ave <br>
+                                    Molendinar QLD 4214<br>
+                                    E sales@igblinds.com.au<br>
+                                    T 07 5597 0864 <br>
+                                    M 0405 226 790 <br>
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-6">
                             <div class="widget">
                                 <h5>{{ strtoupper('OUR INDUSTRY PARTNERS') }}</h5>
-                            </div>
-                        </div>
-                         <div class="col-md-2">
-                            <div class="widget">
-                                <h5>{{ strtoupper('') }}</h5>
-                            </div>
-                        </div>
-                         <div class="col-md-2">
-                            <div class="widget">
-                                <h5>{{ strtoupper('') }}</h5>
+                                <div class="partner-logos">
+                                    <img src="images/partner/partner1.png" class="partner-logo picframe">
+                                    <img src="images/partner/partner2.png" class="partner-logo picframe">
+                                    <img src="images/partner/partner3.png"class="partner-logo picframe">
+                                </div>
                             </div>
                         </div>
 

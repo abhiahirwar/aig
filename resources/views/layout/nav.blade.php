@@ -7,19 +7,19 @@
         <li><a href="/">Home</a>
             
         </li>
-        <li><a href="{{ url('about') }}">About IG Blinds</a>
+        <li ><a class="{{ Request::path() == 'about' ? 'active' : '' }}" href="{{ url('about') }}">About IG Blinds</a>
             
         </li>
-        <li><a href="{{ url('products') }}">Product Range</a>
+        <li><a class="{{ Request::path() == 'products' ? 'active' : '' }}" href="{{ url('products') }}">Product Range</a>
             
         </li>
-        <li><a href="{{ url('spec') }}">Color and Specification</a>
+        <li><a class="{{ Request::path() == 'spec' ? 'active' : '' }}" href="{{ url('spec') }}">Color and Specification</a>
             
         </li>
-        <li><a href="{{ url('glass-options') }}">Glass Option</a>
+        <li><a class="{{ Request::path() == 'glass-options' ? 'active' : '' }}" href="{{ url('glass-options') }}">Glass Option</a>
             
         </li>
-        <li><a href="{{ url('warranty') }}">Warranty</a></li>
-        <li><a href="{{ url('contact') }}">Contact us</a></li>
+        <li><a class="{{ Request::path() == 'warranty' ? 'active' : '' }}" href="{{ url('warranty') }}">Warranty</a></li>
+        <li><a class="{{ Request::path() == 'contact' ? 'active' : '' }}" href="{{ url('contact') }}">Contact us</a></li>
     </ul>
 </nav>

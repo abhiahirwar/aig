@@ -38,7 +38,7 @@ Route::get('/glass-options', function() {
 });
 
 Route::get('/contact', function() {
-    return 'Contact!';
+    return view('contact');
 });
 
 Route::get('/spec', function() {

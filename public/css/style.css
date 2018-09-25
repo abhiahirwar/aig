@@ -596,14 +596,14 @@ overflow:visible;
 
 
 	#content{
-	background:#18191b;
+	background:#fff;
 	}
 
 
 /* ================================================== */
 /* section */
 /* ================================================== */
-	section{padding:90px 0 90px 0; position:relative; overlay:hidden;}
+	section{padding:60px 0 60px 0; position:relative; overlay:hidden;}
 	section{background:#18191b;}
 
 	.de-navbar-left .container-fluid .container{
@@ -1817,7 +1817,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e704', end
 	font-size:26px;
 	margin:0;
 	letter-spacing:0;
-	border-bottom:solid 3px #cccccc;
 	display:inline-block;
 	}
 	h2.no-border{
@@ -4021,7 +4020,6 @@ padding-left:20px;
 .widget {
 margin-bottom:30px;
 padding-bottom:30px;
-border-bottom:solid 1px #333;
 }
 
 .de_light .widget{

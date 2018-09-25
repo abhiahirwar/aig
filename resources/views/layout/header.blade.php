@@ -2,7 +2,9 @@
 <header>
     <div class="container">
         <div class="info">
-            <div class="pull-right">AFTER-SALES SERVICE 07 5597 0864</div>
+            <div class="pull-right contact-no blue-bg">
+                AFTER-SALES SERVICE 07 5597 0864
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
