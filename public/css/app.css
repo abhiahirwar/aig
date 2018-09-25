@@ -273,7 +273,7 @@ h3,
 h4,
 h5 {
   color: #222;
-  font-family: "Proxima Nova",Arial, Helvetica, sans-serif;
+  font-family: "Montserrat","Proxima Nova",Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -281,7 +281,7 @@ h1 {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 34px;
-  font-family: "proxima_nova_altbold", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat","proxima_nova_altbold", Arial, Helvetica, sans-serif;
 }
 
 a:hover,
@@ -296,7 +296,7 @@ section {
 .large-text {
   font-size: 28px;
   line-height: 34px;
-  font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat","proxima_nova_ltthin", Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -309,7 +309,7 @@ header nav {
 }
 
 header nav a {
-  font-family: "proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat","proxima_nova_ltthin", Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
 
@@ -322,16 +322,12 @@ header .info {
   border-bottom: none;
 }
 
-.container {
-  width: 1270px;
-}
-
 #logo img {
   height: 76px;
 }
 
 #mainmenu a {
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 0px 25px;
   font-size: 12px;
 }
 
@@ -341,7 +337,7 @@ footer h3,
 footer h4,
 footer h5 {
   color: #fff;
-  font-family: "Proxima Nova",Arial, Helvetica, sans-serif;
+  font-family: "Montserrat","Proxima Nova",Arial, Helvetica, sans-serif;
 }
 
 .contact-no {
