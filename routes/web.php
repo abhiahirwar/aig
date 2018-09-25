@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/faq', function() {
-    return 'FAQ!';
+    return view('faq');
 });
 
 
@@ -26,15 +26,15 @@ Route::get('/about', function() {
 
 
 Route::get('/warranty', function() {
-    return 'Warranty!';
+    return view('warranty');
 });
 
 Route::get('/products', function() {
-    return 'Products!';
+    return view('products');
 });
 
 Route::get('/glass-options', function() {
-    return 'Glass Options!';
+    return view('glass-options');
 });
 
 Route::get('/contact', function() {
@@ -42,5 +42,9 @@ Route::get('/contact', function() {
 });
 
 Route::get('/spec', function() {
-    return 'Hello World!';
+    return view('spec');
+});
+
+Route::get('/toc', function() {
+    return view('toc');
 });

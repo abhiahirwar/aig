@@ -7,10 +7,10 @@
                             <div class="widget">
                                 <h5>{{ strtoupper('Information') }}</h5>
                                 <ul>
-                                    <li><a href="index.html#">About IG Blinds</a></li>
-                                    <li><a href="index.html#">Product range</a></li>
-                                    <li><a href="index.html#">Colour specifications</a></li>
-                                    <li><a href="index.html#">Glass options</a></li>
+                                    <li ><a class="{{ Request::path() == 'about' ? 'active' : '' }}" href="{{ url('about') }}">About IG Blinds</a></li>
+                                    <li><a class="{{ Request::path() == 'products' ? 'active' : '' }}" href="{{ url('products') }}">Product Range</a></li>
+                                    <li><a class="{{ Request::path() == 'spec' ? 'active' : '' }}" href="{{ url('spec') }}">Color and Specification</a></li>
+                                    <li><a class="{{ Request::path() == 'glass-options' ? 'active' : '' }}" href="{{ url('glass-options') }}">Glass Option</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -18,9 +18,9 @@
                             <div class="widget">
                                 <h5>{{ strtoupper('CUSTOMER SERVICE') }}</h5>
                                 <ul>
-                                    <li><a href="">Warranty</a></li>
-                                    <li><a href="">FAQs</a></li>
-                                    <li><a href="">Terms & Conditions</a></li>
+                                    <li><a class="{{ Request::path() == 'warranty' ? 'active' : '' }}" href="{{ url('warranty') }}">Warranty</a></li>
+                                    <li><a class="{{ Request::path() == 'warranty' ? 'active' : '' }}" href="{{ url('faq') }}">FAQs</a></li>
+                                    <li><a class="{{ Request::path() == 'warranty' ? 'active' : '' }}" href="{{ url('toc') }}">Terms & Conditions</a></li>
                                 </ul>
                             </div>
                         </div>
