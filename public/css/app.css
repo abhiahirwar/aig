@@ -401,12 +401,20 @@ footer h5 {
   height: 400px;
 }
 
+.height-800 {
+  height: 800px;
+}
+
 .margintop60 {
   margin-top: 60px;
 }
 
 .partner-logo {
   margin-right: 50px;
+}
+
+#section-about {
+  margin-top: 40px;
 }
 
 .bg-white {
