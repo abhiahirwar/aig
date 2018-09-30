@@ -3,21 +3,20 @@ body{
   font-family: $font-family-sans-serif;
 }
 
-p{
+p, ol, ul, li{
   font-size: 12px;
 }
 
 h1, h2, h3, h4, h5 {
     color: #222;
-    font-family: "Montserrat","Proxima Nova",Arial, Helvetica, sans-serif;;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;;
 }
 
 h1 {
   text-align: left;
-  text-transform: capitalize;
   font-weight: bold;
   font-size: 34px;
-  font-family: "Montserrat","proxima_nova_altbold", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -33,50 +32,66 @@ section {
 .large-text {
   font-size:  28px;
   line-height: 34px;
-  font-family: "Montserrat","proxima_nova_ltthin", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 header {
   background: #23212c;
-  height: 165px;
+  height: 124px;
 
-  nav{
-    margin-top: 66px;
-    a{
-      font-family: "Montserrat","proxima_nova_ltthin", Arial, Helvetica, sans-serif;
-      font-size: 12px;
-    }
+  nav.primary-menu {
+    margin-top: 64px;
+    width: 80%;
   }
 
-  div#logo {
-    margin-top: 14px;
+  #logo {
+    width: 20%;
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 25%;
+    }
   }
 
   .info {
     padding: 0px;
     border-bottom: none;
+    position: absolute;
+    top: 0;
+    right: 10%;
   }
 }
 
-#logo img {
-  height: 76px;
-}
+#mainmenu{
+  a {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 25px;
+    font-size: 10px;
+  }
 
-#mainmenu a {
-  padding: 0px 0px 0px 25px;
-  font-size: 12px;
+  ul {
+    padding: 0px;
+
+    li:first-child {
+      padding: 0px;
+    }
+  }
 }
 
 footer {
   h1, h2, h3, h4, h5 {
     color: #fff;
-    font-family: "Montserrat","Proxima Nova",Arial, Helvetica, sans-serif;;
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;;
   }
 }
 
 .contact-no {
   display: block;
-  padding: 10px;
+  padding: 5px 15px;
+  font-size: 12px;
 }
 
 .btn-m {
@@ -95,7 +110,7 @@ footer {
 .card {
   display: block;
   position: relative;
-  
+
   .card-footer {
     position: absolute;
     bottom: 0;
@@ -103,7 +118,7 @@ footer {
 
   .card-content {
     padding: 20px 0;
-    
+
     p {
       font-size: 24px;
     }
@@ -113,6 +128,29 @@ footer {
 .small-text {
   font-size: 10px !important;
   line-height: 12px;
+}
+
+.featured-content {
+  font-size: 20px;
+  p {
+    font-size: 20px;
+  }
+}
+
+h2.heading-bar {
+  width: 100%;
+  background: #23212C;
+  color: #fff;
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+}
+
+select {
+  width: 190px;
+  height: 40px;
+  border-radius: 15px;
+  border: 0px;
 }
 
 .height-100 {
@@ -147,7 +185,37 @@ footer {
   margin-right: 50px;
 }
 
+.product-option {
+  margin-left: 60px;
+}
+
 #section-about {
   margin-top: 40px;
 }
 
+.about-bg {
+  margin-top: 640px;
+}
+
+ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+
+ol>li {
+  margin:0;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}

@@ -30,9 +30,8 @@
 
 	<!-- section begin -->
     <section id="section-testimonial" class="text-light" data-type="background">
-        <div class="container height-800">
-            
-           <div class="spacer-double"></div><div class="spacer-double"></div><div class="spacer-double"></div><div class="spacer-double"></div>
+        <div class="container">
+           <div class="about-bg">
         </div>
     </section>
     <!-- section close -->
