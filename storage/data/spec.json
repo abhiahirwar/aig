@@ -1,0 +1,49 @@
+{"blind-specs": [{
+  "id": "002",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+},
+{
+  "id": "028",
+  "color": "#F7F7F6",
+  "energy_reflection": 68,
+  "light_reflection": 74,
+  "energy_absorption": 29
+},
+{
+  "id": "029",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+},
+{
+  "id": "048",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+},
+{
+  "id": "048",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+},
+{
+  "id": "050",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+},
+{
+  "id": "051",
+  "color": "#F7F7F6",
+  "energy_reflection": 71,
+  "light_reflection": 79,
+  "energy_absorption": 29
+}]}
