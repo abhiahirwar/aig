@@ -19,6 +19,10 @@ h1 {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 a {
   &:hover, &:active {
     color: #c64344;
@@ -245,11 +249,56 @@ table.spec-table {
   }
 }
 
-
 .color-circle {
   width: 60px;
   height: 60px;
   border-radius: 30px;
   background-color: #222;
   display: block;
+}
+
+.expand-group .expand:nth-child(odd) {
+  background-color: transparent;
+}
+
+.expand-group .expand:last-child {
+  border: none;
+}
+
+.expand {
+  border: 0px;
+  background-color: transparent;
+}
+
+.expand-group .expand h4:after {
+  content: "\f055";
+  color: #0083C2;
+}
+
+.expand h4.active:after {
+   content: "\f056";
+   color: #0083C2;
+}
+
+#filters {
+  background-color: #23212C;
+  padding: 10px;
+
+  li {
+    margin-bottom: 0px;
+    border-right: 1px #fff solid;
+    padding: 5px 20px;
+    a {
+      color: #fff;
+      &:hover{
+        color: #FF5252;
+        background-color: transparent;
+      }
+    }
+
+    a.selected {
+      background-color: transparent;
+      color: #FF5252;
+    }
+  }
 }
