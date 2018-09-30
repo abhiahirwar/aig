@@ -10,7 +10,7 @@
             <div class="col-md-12">
                 <!-- logo begin -->
                 <div id="logo">
-                    <a href="index.html">
+                    <a href="/">
                         <img class="logo" src="images/logo.png" alt="">
                     </a>
                 </div>
