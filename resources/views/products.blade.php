@@ -5,18 +5,18 @@
   	<!-- section begin -->
     <section id="section-about">
         <div class="container">
-  			<h1>Product range ─</h1>
-  			<div class="spacer-double"></div>
-  			<div class="row">
-          <div class="col-md-8 featured-content">
-    				<p>
-              Recognised as one of the most advanced integrated blind systems available.
-            </p>
-            <p>
-              IG Blinds® offer an extensive range of products, designed to meet every need related to shading, colour selection, screening and advanced operating systems.
-            </p>
-          </div>
-  			</div>
+    			<h1>Product range ─</h1>
+    			<div class="spacer-double"></div>
+    			<div class="row">
+            <div class="col-md-10 featured-content">
+      				<p>
+                Recognised as one of the most advanced integrated blind systems available.
+              </p>
+              <p>
+                IG Blinds® offer an extensive range of products, designed to meet every need related to shading, colour selection, screening and advanced operating systems.
+              </p>
+            </div>
+    			</div>
         </div>
     </section>
     <!-- section close -->

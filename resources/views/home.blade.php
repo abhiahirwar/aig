@@ -10,7 +10,7 @@
 	    		</div>
     		</div>
     		<div class="col-md-6 padding50">
-    			<div class="card height-300">
+    			<div class="card height-350">
 	    			<div class="card-heading">
 	    				<h2>Our Range ─</h2>
 	    			</div>
@@ -29,7 +29,7 @@
 	<section>
     	<div class="container">
     		<div class="col-md-6 padding50">
-    			<div class="card height-300">
+    			<div class="card height-350">
 	    			<div class="card-heading">
 	    				<h2>Our glass options ─</h2>
 	    			</div>

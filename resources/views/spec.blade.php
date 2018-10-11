@@ -8,7 +8,7 @@
   			<h1>Colour and Specifications ─</h1>
   			<div class="spacer-double"></div>
   			<div class="row">
-  				 <div class="col-md-8 featured-content">
+  				 <div class="col-md-10 featured-content">
             <p>
               Recognised as one of the most advanced integrated blind systems available.
             </p>

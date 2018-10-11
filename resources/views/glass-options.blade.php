@@ -8,7 +8,7 @@
     			<h1>Glass Options ─</h1>
     			<div class="spacer-double"></div>
     			<div class="row">
-    				 <div class="col-md-8 featured-content">
+    				 <div class="col-md-10 featured-content">
               <p>
                 Glass specifications can be customised to meet individual design or thermal performance criteria.
               </p>
