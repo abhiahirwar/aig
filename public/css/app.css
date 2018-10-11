@@ -217,7 +217,7 @@ header #logo img {
   height: auto;
   display: block;
   position: absolute;
-  top: 25%;
+  top: 30px;
 }
 
 header .info {
