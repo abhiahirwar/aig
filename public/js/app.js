@@ -2024,6 +2024,13 @@ __webpack_require__(8);
 //     el: '#app'
 // });
 
+$('.dropdown-content').hide();
+
+$('.drop-btn').on("click", function () {
+  $('.dropdown-content').toggle();
+  $(this).toggleClass("open");
+});
+
 /***/ }),
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {

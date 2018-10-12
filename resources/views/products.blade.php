@@ -42,15 +42,22 @@
           </div>
           <div class="col-md-3">
               <div class="product-option">
-              <span class="text-light ">Select from the list below.</span>
-              <select class="orange-bg margintop20">
-                <option value="Venetian" select>Venetian</option>
-                <option value="Pleated">Pleated</option>
-                <option value="Duet Sunveil">Duet Sunveil</option>
-                <option value="Blackout">Blackout</option>
-                <option value="Accessories">Accessories</option>
-              </select>
-            </div>
+                <span class="">Select from the list below.</span>
+                  <div class="dropdown">
+                    <button class="drop-btn btn orange-bg white-text">Dropdown 
+                      <i class="fa fa-caret-down pull-right"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <ul class="dropdownlinks">
+                        <li><a href="#">Venetian</a></li>
+                        <li><a href="#">Pleated</a></li>
+                        <li><a href="#">Duet Sunveil</a></li>
+                        <li><a href="#">Blackout</a></li>
+                        <li><a href="#">Accessories</a></li>
+                      </ul>
+                    </div>
+                  </div> 
+              </div>
           </div>
         </div>
 

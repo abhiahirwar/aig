@@ -20,3 +20,10 @@ require('flickity');
 // const app = new Vue({
 //     el: '#app'
 // });
+
+$('.dropdown-content').hide();
+
+$('.drop-btn').on("click", function(){
+	$('.dropdown-content').toggle();
+	$(this).toggleClass("open");
+});

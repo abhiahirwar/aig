@@ -5555,7 +5555,7 @@ background: #fff;
 
 	@media(min-width:1640px) {
 		.container{
-			width:1400px;
+			width: 80%
 		}
 	}
 

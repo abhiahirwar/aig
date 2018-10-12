@@ -1,6 +1,5 @@
 body{
   color: #222;
-  font-family: $font-family-sans-serif;
 }
 
 p, ol, ul, li{
@@ -11,19 +10,18 @@ p, ol, ul, li{
 
 h1, h2, h3, h4, h5 {
     color: #222;
-    font-family: "Montserrat",Arial, Helvetica, sans-serif;
 }
 
 h1 {
   text-align: left;
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 2.875em
 }
 
 h2 {
   text-align: left;
   font-weight: 700;
-  font-size: 2.4em;
+  font-size: 2em;
 }
 
 h3 {
@@ -39,12 +37,6 @@ a {
 
 section {
   background: #fff;
-}
-
-.large-text {
-  font-size:  2em;
-  line-height: 1.4em;
-  font-weight: 300;
 }
 
 header {
@@ -111,6 +103,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     margin: 14px 0px;
+    color: #fff;
 
     i {
       float: right;
@@ -120,36 +113,38 @@ footer {
 .card {
   display: block;
   position: relative;
-
+  background: transparent;
+  border: 0px;
+  border-radius: 0px;
   h2{
-    font-size: 2.8em;
+    font-size: 2.875em;
   }
 
   .card-footer {
-    position: absolute;
     bottom: 0;
+    border: 0px;
+    background: transparent;
+    padding-left: 0px;
   }
 
   .card-content {
     padding: 20px 0;
-
-    p {
-      font-size: 2em;
-      line-height: 1.2em;
-      font-weight: 300;
-
-      &.small-text {
-        font-size: 1em;
-        line-height: 1.4em;
-        font-weight: 400;
-      }
-    }
   }
 }
 
 .small-text {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+.medium-text {
+  font-size: 2em !important; 
+  line-height: 1.2em;
+}
+
+.large-text {
+  font-size: 2.875em !important;
+  line-height: 1.4em;
 }
 
 .featured-content {
@@ -166,7 +161,8 @@ h2.heading-bar {
   color: #fff;
   display: block;
   padding: 20px;
-  font-size: 16px;
+  font-size: 2em;
+  height: 75px;
 }
 
 select {
@@ -322,5 +318,58 @@ table.spec-table {
       background-color: transparent;
       color: #FF5252;
     }
+  }
+}
+
+#newsletter-form {
+  input {
+    margin:10px 0;
+  }
+}
+
+#section-about-footer{ 
+  background:url(../../public/images/background/bg-3.png);
+}
+
+.drop-btn {
+  border-radius: 4px;
+  width: 100%;
+  border-bottom: 0px;
+  text-align: left;
+}
+
+.drop-btn.open {
+   border-radius: 4px 4px 0px 0px;
+   padding-left: 5px;
+}
+
+ul.dropdownlinks {
+  text-decoration: none;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+  border: 1px solid rgba(34, 34, 34, 0.24);
+  border-radius: 0px 0px 4px 4px;
+  border-top: 0px;
+  background: #fff;
+}
+
+.dropdown li{
+  margin-left: 0px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  display: block;
+  list-style: none;
+  position: relative;
+  padding: 8px;
+  color: #222;
+
+  a {
+    color: #222;
+    padding-left: 10px;
+  }
+
+  &:hover{
+    background-color: rgba(255, 61, 73, 0.57);
   }
 }
