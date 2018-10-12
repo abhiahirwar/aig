@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
-    <link rel="stylesheet" href="demo/demo.css" type="text/css">
+    <!-- <link rel="stylesheet" href="demo/demo.css" type="text/css"> -->
     <link rel="stylesheet" href="css/app.css" type="text/css">
 
     <!-- custom background -->

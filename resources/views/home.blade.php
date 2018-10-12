@@ -10,7 +10,7 @@
 		    			<img src="images/product/home_range.png" />
 		    		</div>
 	    		</div>
-	    		<div class="offset-md-1 col-md-6 padding50">
+	    		<div class="offset-md-1 col-md-5 p-h-xl">
 	    			<div class="card height-500">
 		    			<div class="card-heading">
 		    				<h2>Our Range ─</h2>
@@ -31,7 +31,7 @@
 	<section>
     	<div class="container">
     		<div class="row">
-	    		<div class="col-md-5 padding50">
+	    		<div class="col-md-5 p-h-xl">
 	    			<div class="card height-350">
 		    			<div class="card-heading">
 		    				<h2>Our glass options ─</h2>
