@@ -6,7 +6,7 @@
     <section id="section-about">
         <div class="container">
   			<h1>Warranty─</h1>
-  			<div class="spacer-double"></div>
+  			<div class="spacer-single"></div>
   			<div class="row">
           @include('page_content.warranty')
         </div>

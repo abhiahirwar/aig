@@ -6,7 +6,7 @@
     <section id="section-about">
         <div class="container">
   			<h1>Colour and Specifications ─</h1>
-  			<div class="spacer-double"></div>
+  			<div class="spacer-single"></div>
   			<div class="row">
   				 <div class="col-md-10 featured-content">
             <p>

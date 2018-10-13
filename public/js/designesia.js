@@ -800,8 +800,19 @@ jQuery(document).ready(function () {
             fullScreen: "on",
             fullScreenOffsetContainer: "",
             touchenabled: "on",
-            navigationType: "none",
+            navigationType: "bullets",
             dottedOverlay: ""
+        });
+
+        jQuery('body').on('click', '.slider-link', function() {
+
+            // revapi5 equals the API identified for the slider
+            // revshowslide(2) will load the second slide
+            var slide = jQuery(this).data("linkrs");
+            revapi.revshowslide(slide);
+            // jQuery(this).addClass('active');
+            return false;
+
         });
 
 

@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('content')
- 	@include('partial.slider')
+ 	@include('partial.revolution-slider')
  	<section>
     	<div class="container">
     		<div class="row">
@@ -97,7 +97,7 @@
 	    		</div>
 	    		<div class="col-md-5">
 		    		<h4 class="white-text font-regular">Sign up to our newsletter</h4>
-		    		
+
 		    		<div id="newsletter-form" class="m-t-md">
 		    			<form action>
 		    				<div class="row">
