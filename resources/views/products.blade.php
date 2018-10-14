@@ -49,11 +49,11 @@
                     </button>
                     <div class="dropdown-content">
                       <ul class="dropdownlinks">
-                        <li><a href="{{ url('products/venetian')}}">Venetian</a></li>
-                        <li><a href="{{ url('products/venetian')}}">Pleated</a></li>
-                        <li><a href="{{ url('products/venetian')}}">Duet Sunveil</a></li>
-                        <li><a href="{{ url('products/venetian')}}">Blackout</a></li>
-                        <li><a href="{{ url('products/venetian')}}">Accessories</a></li>
+                        <li><a href="{{ url('products/venetian-2')}}">Venetian</a></li>
+                        <li><a href="{{ url('products/venetian-2')}}">Pleated</a></li>
+                        <li><a href="{{ url('products/venetian-2')}}">Duet Sunveil</a></li>
+                        <li><a href="{{ url('products/venetian-2')}}">Blackout</a></li>
+                        <li><a href="{{ url('products/venetian-2')}}">Accessories</a></li>
                       </ul>
                     </div>
                   </div>
@@ -85,11 +85,11 @@
                 </button>
                 <div class="dropdown-content">
                   <ul class="dropdownlinks">
-                    <li><a href="{{ url('products/venetian')}}">Venetian</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Pleated</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Duet Sunveil</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Blackout</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Accessories</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Venetian</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Pleated</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Duet Sunveil</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Blackout</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Accessories</a></li>
                   </ul>
                 </div>
               </div>
@@ -120,11 +120,11 @@
                 </button>
                 <div class="dropdown-content">
                   <ul class="dropdownlinks">
-                    <li><a href="{{ url('products/venetian')}}">Venetian</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Pleated</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Duet Sunveil</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Blackout</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Accessories</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Venetian</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Pleated</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Duet Sunveil</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Blackout</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Accessories</a></li>
                   </ul>
                 </div>
               </div>
@@ -154,11 +154,11 @@
                 </button>
                 <div class="dropdown-content">
                   <ul class="dropdownlinks">
-                    <li><a href="{{ url('products/venetian')}}">Venetian</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Pleated</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Duet Sunveil</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Blackout</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Accessories</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Venetian</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Pleated</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Duet Sunveil</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Blackout</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Accessories</a></li>
                   </ul>
                 </div>
               </div>
@@ -189,11 +189,11 @@
                 </button>
                 <div class="dropdown-content">
                   <ul class="dropdownlinks">
-                    <li><a href="{{ url('products/venetian')}}">Venetian</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Pleated</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Duet Sunveil</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Blackout</a></li>
-                    <li><a href="{{ url('products/venetian')}}">Accessories</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Venetian</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Pleated</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Duet Sunveil</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Blackout</a></li>
+                    <li><a href="{{ url('products/venetian-2')}}">Accessories</a></li>
                   </ul>
                 </div>
               </div>
