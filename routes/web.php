@@ -48,3 +48,7 @@ Route::get('/spec', function() {
 Route::get('/toc', function() {
     return view('toc');
 });
+
+Route::get('/products/venetian', function() {
+    return view('products.venetian');
+});

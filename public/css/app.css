@@ -11951,7 +11951,7 @@ header.smaller.scroll-light #mainmenu li li a {
 }
 
 section {
-  padding: 60px 0 60px 0;
+  padding: 60px 0 30px 0;
   position: relative;
   overlay: hidden;
   background: #18191b;
@@ -17842,6 +17842,10 @@ header .info {
   font-size: 1em;
 }
 
+#mainmenu a.active {
+  color: #FF5252;
+}
+
 #mainmenu ul {
   padding: 0px;
 }
@@ -18108,12 +18112,13 @@ table.spec-table td {
   border-radius: 4px;
   width: 100%;
   border-bottom: 0px;
+  line-height: 20px;
   text-align: left;
 }
 
 .drop-btn.open {
   border-radius: 4px 4px 0px 0px;
-  padding-left: 5px;
+  padding-left: 0.375rem 0.75rem;
 }
 
 ul.dropdownlinks {
@@ -18182,6 +18187,12 @@ ul.dropdownlinks {
   padding-left: 100px;
   color: #222;
   font-weight: 500 !important;
+}
+
+.sub-heading {
+  color: #FF5252;
+  font-weight: 700;
+  line-height: 40px;
 }
 
 .bg-color-000 {
@@ -18290,6 +18301,10 @@ ul.dropdownlinks {
 
 .white-text {
   color: #fff;
+}
+
+.orange-text {
+  color: #FF5252;
 }
 
 .sky-blue-text {

@@ -2027,7 +2027,8 @@ __webpack_require__(8);
 $('.dropdown-content').hide();
 
 $('.drop-btn').on("click", function () {
-  $('.dropdown-content').toggle();
+  var dropmenu = $(this).parent();
+  $(dropmenu).find(".dropdown-content").toggle();
   $(this).toggleClass("open");
 });
 

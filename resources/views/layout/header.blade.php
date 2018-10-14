@@ -11,7 +11,7 @@
                 <!-- logo begin -->
                 <div id="logo">
                     <a href="/">
-                        <img class="logo" src="images/logo.png" alt="">
+                        <img class="logo" src="{{ asset('images/logo.png') }}" alt="">
                     </a>
                 </div>
                 <!-- logo close -->

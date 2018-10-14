@@ -72,6 +72,10 @@ header {
   a {
     padding: 0px 0px 0px 25px;
     font-size: 1em;
+
+    &.active {
+      color: #FF5252
+    }
   }
 
   ul {
@@ -341,12 +345,13 @@ table.spec-table {
   border-radius: 4px;
   width: 100%;
   border-bottom: 0px;
+  line-height: 20px;
   text-align: left;
 }
 
 .drop-btn.open {
    border-radius: 4px 4px 0px 0px;
-   padding-left: 5px;
+   padding-left: 0.375rem 0.75rem;
 }
 
 ul.dropdownlinks {
@@ -417,4 +422,10 @@ ul.dropdownlinks {
   padding-left: 100px;
   color: #222;
   font-weight: 500 !important;
+}
+
+.sub-heading {
+  color: #FF5252;
+  font-weight: 700;
+  line-height: 40px;
 }

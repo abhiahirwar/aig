@@ -3,30 +3,31 @@
 @section('content')
  	@include('partial.revolution-slider')
  	<section>
-    	<div class="container">
-    		<div class="row">
-	    		<div class="col-md-5 ">
-	    			<div class="card picframe">
-		    			<img src="images/product/home_range.png" />
-		    		</div>
+  	<div class="container">
+  		<div class="spacer-double"></div>
+  		<div class="row">
+    		<div class="col-md-5 ">
+    			<div class="card picframe">
+	    			<img src="images/product/home_range.png" />
 	    		</div>
-	    		<div class="offset-md-1 col-md-5 p-h-xl">
-	    			<div class="card height-500">
-		    			<div class="card-heading">
-		    				<h2>Our Range ─</h2>
-		    			</div>
-						<div class="card-content">
-		    				<p class="medium-text font-light">Our range utilises the most advanced glass processing technology and rigorous quality control systems.</p>
-		    				<p>Recognised as one of the most advanced integrated blind systems available, IG Blinds® offer an extensive range of products, designed to meet every need related to shading, colour selection, screening and advanced operating systems.</p>
-		    			</div>
-						<div class="card-footer">
-		    				<button class="btn-m btn orange-bg">View Full Range<i class="fa fa-arrow-right"></i></button>
-		    			</div>
-		    		</div>
+    		</div>
+    		<div class="offset-md-1 col-md-5 p-h-xl">
+    			<div class="card height-500">
+	    			<div class="card-heading">
+	    				<h2>Our Range ─</h2>
+	    			</div>
+					<div class="card-content">
+	    				<p class="medium-text font-light">Our range utilises the most advanced glass processing technology and rigorous quality control systems.</p>
+	    				<p>Recognised as one of the most advanced integrated blind systems available, IG Blinds® offer an extensive range of products, designed to meet every need related to shading, colour selection, screening and advanced operating systems.</p>
+	    			</div>
+					<div class="card-footer">
+	    				<a href="{{ url('products') }}"class="btn-m btn orange-bg text-white">View Full Range<i class="fa fa-arrow-right"></i></a>
+	    			</div>
 	    		</div>
-	    	</div>
+    		</div>
     	</div>
-    </section>
+  	</div>
+  </section>
 	<!-- section begin -->
 	<section>
     	<div class="container">
@@ -41,7 +42,7 @@
 		    				<p>Recognised as one of the most advanced integrated blind systems available, IG Blinds® offer an extensive range of products, designed to meet every need related to shading, colour selection, screening and advanced operating systems.</p>
 		    			</div>
 						<div class="card-footer">
-		    				<button class="btn-m btn orange-bg">View Glass Options <i class="fa fa-arrow-right"></i></button>
+		    				<a href="{{ url('glass-options') }}" class="btn-m btn orange-bg white-text">View Glass Options <i class="fa fa-arrow-right"></i></a>
 		    			</div>
 		    		</div>
 	    		</div>
@@ -59,7 +60,7 @@
     	<div class="container">
     		<div class="row">
 	    		<div class="col-md-6 dark-blue-bg white-text padding50">
-	    			<div class="card height-300">
+	    			<div class="card height-250">
 		    			<div class="card-heading">
 		    				<h2 class="sky-blue-text medium-text">After-sales service</h2>
 		    			</div>
@@ -67,12 +68,12 @@
 		    				<p>IG Blinds is the only Australian company to provide after-sales service and support nationally on every IG Blinds® installation.</p>
 		    			</div>
 						<div class="card-footer">
-		    				<button class="btn-m btn orange-bg">Contact US <i class="fa fa-arrow-right"></i></button>
+		    				<a href="{{ url('contact') }}" class="btn-m btn orange-bg">Contact US <i class="fa fa-arrow-right"></i></a>
 		    			</div>
 		    		</div>
 	    		</div>
 	    		<div class="col-md-6 sky-blue-bg padding50">
-	    			<div class="card height-300">
+	    			<div class="card height-250">
 		    			<div class="card-heading">
 		    				<h2 class="medium-text">Download our brochure <br>
 							to view the full range <br>
