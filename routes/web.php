@@ -52,3 +52,6 @@ Route::get('/toc', function() {
 Route::get('/products/venetian', function() {
     return view('products.venetian');
 });
+Route::get('/products/venetian-2', function() {
+    return view('products.venetian-2');
+});

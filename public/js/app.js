@@ -2032,6 +2032,18 @@ $('.drop-btn').on("click", function () {
   $(this).toggleClass("open");
 });
 
+$(window).load(function () {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    slideshow: false,
+    controlNav: false,
+    directionNav: true,
+    // controlsContainer: "",               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+    // directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
+    customDirectionNav: $(".custom-navigation a")
+  });
+});
+
 /***/ }),
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
