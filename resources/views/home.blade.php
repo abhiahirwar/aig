@@ -116,10 +116,10 @@
 		    		<div class="widget">
 		    			<h3 class="sky-blue-text">or follow us on</h3>
 	                    <ul>
-	                        <li><a href="{{ url('about') }}">About IG Blinds</a></li>
-	                        <li><a href="#">Product range</a></li>
-	                        <li><a href="#">Colour specifications</a></li>
-	                        <li><a href="#">Glass options</a></li>
+	                        <li><a class="text-white" href="{{ url('about') }}">About IG Blinds</a></li>
+	                        <li><a class="text-white" href="{{ url('products') }}">Product range</a></li>
+	                        <li><a class="text-white" href="{{ url('spec') }}">Colour specifications</a></li>
+	                        <li><a class="text-white" href="{{ url('glass-options') }}">Glass options</a></li>
 	                    </ul>
 	                </div>
 	    		</div>

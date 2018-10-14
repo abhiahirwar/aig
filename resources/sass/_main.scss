@@ -22,7 +22,7 @@ h2 {
   text-align: left;
   font-weight: 700;
   font-size: 1.5em;
-  line-height: 1.7em;
+  line-height: 1em;
 }
 
 h3 {
@@ -131,6 +131,10 @@ footer {
     border: 0px;
     background: transparent;
     padding-left: 0px;
+
+    .fa {
+      line-height: 20px;
+    }
   }
 
   .card-content {

@@ -30,40 +30,7 @@
         <h2>Venetian Range</h2>
         <div class="row">
             <div class="col-md-12">
-                <div class="product-ranges">
-                    <ul class="range_nav">
-                        <li class="active"><span><a href="{{ url('products/venetain-20') }}">TP20VMB</a></span>
-                            <div class="h-border"></div>
-                        </li>
-                        <li class="" ><span><a href="{{ url('products/venetain-22') }}">TP22VMB</a></span>
-                            <div class="h-border"></div>
-                        </li>
-                        <li class="" ><span><a href="{{ url('products/venetain-27') }}">TP27VMB</a></span>
-                            <div class="h-border"></div>
-                        </li>
-                    </ul>
-
-                    <div class="de_tab_content">
-                        <div id="tab1">
-                            <h2 class="orange-text">TP20VMB (Double glazing 20mm) Sunlight</h2>
-                            <div class="row">
-                                <div class="col-md-8 m-t-lg">
-                                    <p>
-                                        First patented system of plissé blinds in double glazing with magnetic transmission wireless actuator. This extremely innovative system works through a battery actuator which can be recharged using the special battery charger.
-                                    </p>
-                                    <p>
-                                        No electrical wiring required. By placing this actuator on the respective magnetic connector fixed to the window or frame, the up or down impulse can be transmitted in the fast automatic function or in the slow manual function pressing the arrow buttons on it.
-                                    </p>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="img-lg pull-right">
-                                        <img src="{{asset('images/iso.png') }}" >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @include('partial.tab')
             </div>
         </div>
       </div>
@@ -216,9 +183,9 @@
                             <h2 class="medium-text">Download</h2>
                         </div>
                         <div class="card-content">
-                            <a herf="#" class="link-download">Technical specifcations (3.2mb PDF)<i class="fa fa-download"></i></a>
+                            <a herf="#" class="link-download">Technical specifcations (3.2mb PDF)<i class="fa fa-arrow-circle-down"></i></a>
                             <hr class="white">
-                            <a herf="#" class="link-download">Colour specifications (4.2mb PDF)<i class="fa fa-download"></i></a>
+                            <a herf="#" class="link-download">Colour specifications (4.2mb PDF)<i class="fa fa-arrow-circle-down"></i></a>
 
                         </div>
                         <div class="card-footer">
